@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class AuthController extends Controller
+{
+    #same sa web.php dapat
+    function showRegister() {
+        return view('authentication.register');
+    }
+
+    function showLogin() {
+        return view('authentication.login');
+    }
+
+    function performLogin() {
+
+    }
+
+    function performRegister() {
+
+    }
+}
